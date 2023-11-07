@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fibonacci Project</string>
+    <string name="ApaKabar1">Hallo apa kabarnya?</string>
+    <string name="button_label_toast">Toast</string>
+    <string name="button_label_count">Count</string>
+    <string name="count_initial_value">1</string>
+    <string name="toast_message">Hebat Bro!</string>
+</resources>
