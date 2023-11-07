@@ -8,8 +8,8 @@ Project Fibonacci
 
 ## 1. activity_main.xml
 
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+    <?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -73,39 +73,39 @@ Project Fibonacci
 
 ## 2. colors.xml
 
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+    <?xml version="1.0" encoding="utf-8"?>
+    <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#0000FF</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-</resources>
+    </resources>
 
 ## 3. strings.xml
 
-<resources>
+    <resources>
     <string name="app_name">Fibonacci Project</string>
     <string name="ApaKabar1">Hallo apa kabarnya?</string>
     <string name="button_label_toast">Toast</string>
     <string name="button_label_count">Count</string>
     <string name="count_initial_value">1</string>
     <string name="toast_message">Hebat Bro!</string>
-</resources>
+    </resources>
 
 ## 4. MainActivity.java
 
-package com.example.fibonanciproject;
+    package com.example.fibonanciproject;
 
-import androidx.appcompat.app.AppCompatActivity;
+    import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
+    import android.os.Bundle;
+    import android.view.View;
+    import android.widget.TextView;
+    import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+    public class MainActivity extends AppCompatActivity {
     private TextView show_count;
     private int count = 1;
     private long fibNMinus = 1;
@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
         }
         count++;
     }
-}
+    }
 
 ## 5. Tampilan Aplikasi
 
