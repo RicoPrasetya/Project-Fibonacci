@@ -135,4 +135,4 @@ Project Fibonacci
 
 ## 5. Tampilan Aplikasi
 
-    ![Screenshot Tampilan Program](Screenshot/ss1.png)
+![Screenshot Tampilan Program](Screenshot/ss1.png)
