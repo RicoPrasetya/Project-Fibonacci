@@ -69,7 +69,7 @@ Project Fibonacci
         app:layout_constraintVertical_bias="0.089"
         tools:ignore="RtlCompat" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 ## 2. colors.xml
 
